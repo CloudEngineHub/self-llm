@@ -74,13 +74,13 @@
 
 ### 已支持模型
 
-- [MiniCPM 4.0](https://github.com/OpenBMB/MiniCPM?tab=readme-ov-file#minicpm-40)
-  - [ ] MiniCPM4-8B vllm 部署调用
-  - [ ] MiniCPM4-8B Evalscope 智商情商评测
-  - [ ] MiniCPM4-0.5B Evalscope 单卡4090 并发测试
-  - [ ] MiniCPM4-8B Lora 微调及 SwanLab 可视化记录
-  - [ ] MiniCPM4-0.5B GRPO 微调及通过 Swanlab 可视化
-  - [ ] MiniCPM4 Docker镜像
+- [Hunyuan-A13B-Instruct](https://github.com/Tencent-Hunyuan/Hunyuan-A13B)
+  - [ ] [Hunyuan-A13B-Instruct 模型架构解析 Blog]()
+  - [ ] [Hunyuan-A13B-Instruct vllm 部署调用]()
+  - [ ] [Hunyuan-A13B-Instruct SGLang 部署调用]()
+  - [ ] [Hunyuan-A13B-Instruct EvalScope 并发测试]()
+  - [ ] [Hunyuan-A13B-Instruct Lora SwanLab 可视化微调]()
+  - [ ] [Hunyuan-A13B-Instruct GRPO微调及通过 SwanLab 可视化]()
 
 - [Qwen3](https://github.com/QwenLM/Qwen3)
   - [x] [Qwen3 模型结构解析 Blog](./models/Qwen3/01-Qwen3-模型结构解析-Blog.md) @王泽宇
