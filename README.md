@@ -74,6 +74,9 @@
 
 ### 已支持模型
 
+- [ERNIE-4.5](https://huggingface.co/baidu/ERNIE-4.5-0.3B-PT)
+  - [ ] ERNIE-4.5-0.3B-PT Lora 微调及 SwanLab 可视化记录
+
 - [Hunyuan-A13B-Instruct](https://github.com/Tencent-Hunyuan/Hunyuan-A13B)
   - [ ] [Hunyuan-A13B-Instruct 模型架构解析 Blog]()
   - [ ] [Hunyuan-A13B-Instruct vllm 部署调用]()
@@ -118,6 +121,7 @@
   - [x] [gemma-3-4b-it evalscope 智商情商评测](./models/Gemma3/04-Gemma3-4b%20%20evalscope智商情商评测.md) @张龙斐
   - [x] [gemma-3-4b-it Lora 微调](./models/Gemma3/05-gemma-3-4b-it%20LoRA.md) @荞麦
   - [x] [gemma-3-4b-it Docker 镜像](https://www.codewithgpu.com/i/datawhalechina/self-llm/self-llm-gemma3) @姜舒凡
+  - [x] [gemma-3-4b-it GRPO微调及通过swanlab可视化](./models/Gemma3/6-gemma3-4B-itGRPO微调及通过swanlab可视化.md) @郭宣伯
 
 - [DeepSeek-R1-Distill](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
   - [x] [DeepSeek-R1-Distill-Qwen-7B FastApi 部署调用](./models/DeepSeek-R1-Distill-Qwen/01-DeepSeek-R1-Distill-Qwen-7B%20FastApi%20部署调用.md) @骆秀韬
@@ -447,5 +451,5 @@
 ### Star History
 
 <div align=center style="margin-top: 30px;">
-  <img src="./images/star-history-2024129.png"/>
+  <img src="./images/star-history-202572.png"/>
 </div>
