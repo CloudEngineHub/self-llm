@@ -75,15 +75,14 @@
 ### 已支持模型
 
 - [ERNIE-4.5](https://huggingface.co/baidu/ERNIE-4.5-0.3B-PT)
-  - [ ] ERNIE-4.5-0.3B-PT Lora 微调及 SwanLab 可视化记录
+  - [x] [ERNIE-4.5-0.3B-PT Lora 微调及 SwanLab 可视化记录](./models/ERNIE-4.5/01-ERNIE-4.5-0.3B-PT%20Lora%20微调及%20SwanLab%20可视化记录.md) @不要葱姜蒜
+  - [x] [ERNIE-4.5-0.3B-PT Lora Docker 镜像](https://www.codewithgpu.com/i/datawhalechina/self-llm/ERNIE-4.5-lora) @不要葱姜蒜
 
 - [Hunyuan-A13B-Instruct](https://github.com/Tencent-Hunyuan/Hunyuan-A13B)
-  - [ ] [Hunyuan-A13B-Instruct 模型架构解析 Blog]()
-  - [ ] [Hunyuan-A13B-Instruct vllm 部署调用]()
-  - [ ] [Hunyuan-A13B-Instruct SGLang 部署调用]()
-  - [ ] [Hunyuan-A13B-Instruct EvalScope 并发测试]()
-  - [ ] [Hunyuan-A13B-Instruct Lora SwanLab 可视化微调]()
-  - [ ] [Hunyuan-A13B-Instruct GRPO微调及通过 SwanLab 可视化]()
+  - [x] [Hunyuan-A13B-Instruct 模型架构解析 Blog](./models/Hunyuan-A13B-Instruct/01-Hunyuan-A13B-Instruct%20模型架构解析%20Blog.md) @卓堂越
+  - [x] [Hunyuan-A13B-Instruct SGLang 部署调用](./models/Hunyuan-A13B-Instruct/03-Hunyuan-A13B-Instruct-SGLang部署调用.md) @fancy
+  - [x] [Hunyuan-A13B-Instruct Lora SwanLab 可视化微调](./models/Hunyuan-A13B-Instruct/05-Hunyuan-A13B-Instruct-LoRA及SwanLab可视化记录.md) @谢好冉
+  - [x] [Hunyuan-A13B-Instruct Lora Docker 镜像](https://www.codewithgpu.com/i/datawhalechina/self-llm/Hunyuan-A13B-Instruct-lora) @谢好冉
 
 - [Qwen3](https://github.com/QwenLM/Qwen3)
   - [x] [Qwen3 模型结构解析 Blog](./models/Qwen3/01-Qwen3-模型结构解析-Blog.md) @王泽宇
@@ -128,6 +127,7 @@
   - [x] [DeepSeek-R1-Distill-Qwen-7B Langchain 接入](./models/DeepSeek-R1-Distill-Qwen/02-DeepSeek-R1-Distill-Qwen-7B%20Langchain%20接入.md) @骆秀韬
   - [x] [DeepSeek-R1-Distill-Qwen-7B WebDemo 部署](./models/DeepSeek-R1-Distill-Qwen/03-DeepSeek-R1-Distill-Qwen-7B%20WebDemo%20部署.md) @骆秀韬
   - [x] [DeepSeek-R1-Distill-Qwen-7B vLLM 部署调用](./models/DeepSeek-R1-Distill-Qwen/04-DeepSeek-R1-Distill-Qwen-7B%20vLLM%20部署调用.md) @骆秀韬
+  - [x] [DeepSeek-R1-0528-Qwen3-8B-GRPO及swanlab可视化](./models/DeepSeek-R1-Distill-Qwen/05-DeepSeek-R1-0528-Qwen3-8B-GRPO及swanlab可视化.md) @郭宣伯
 
 - [MiniCPM-o-2_6](https://github.com/OpenBMB/MiniCPM-o)
   - [x] [minicpm-o-2.6 FastApi 部署调用](./models/MiniCPM-o/01MiniCPM-o%202%206%20FastApi部署调用%20.md) @林恒宇
@@ -148,6 +148,7 @@
   - [x] [phi4 WebDemo 部署](./models/phi4/03-Phi-4%20WebDemo部署.md) @杜森
   - [x] [phi4 Lora 微调](./models/phi4/04-Phi-4-Lora%20微调.md) @郑远婧
   - [x] [phi4 Lora 微调 NER任务 SwanLab 可视化记录版](./models/phi4/05-Phi-4-Lora%20微调%20命名实体识别.md) @林泽毅
+  - [x] [phi4 GRPO微调及通过swanlab可视化](./models/phi4/06-Phi-4-GRPO及swanlab可视化.md) @郭宣伯
 
 - [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)
   - [x] [Qwen2.5-Coder-7B-Instruct FastApi部署调用](./models/Qwen2.5-Coder/01-Qwen2.5-Coder-7B-Instruct%20FastApi%20部署调用.md) @赵文恺
@@ -401,6 +402,8 @@
 - [李柯辰](https://github.com/Joe-2002) （Datawhale成员）
 - [程宏](https://github.com/chg0901)（内容创作者-Datawhale意向成员）
 - [骆秀韬](https://github.com/anine09)（内容创作者-Datawhale成员-似然实验室）
+- [郭宣伯](https://github.com/Twosugar666)（内容创作者-北京航空航天大学）
+- [谢好冉](https://github.com/ilovexsir)（内容创作者-鲸英助教）
 - [陈思州](https://github.com/jjyaoao) （Datawhale成员）
 - [散步](https://github.com/sanbuphy) （Datawhale成员）
 - [颜鑫](https://github.com/thomas-yanxin) （Datawhale成员）
@@ -430,7 +433,8 @@
 - [张龙斐](https://github.com/Feimike09)（内容创作者-鲸英助教）
 - [孙超](https://github.com/anarchysaiko)（内容创作者-Datawhale成员）
 - [樊奇](https://github.com/fanqiNO1)（内容创作者-上海交通大学）
-- [郭宣伯](https://github.com/Twosugar666)（内容创作者-北京航空航天大学）
+- [卓堂越](https://github.com/nusakom)（内容创作者-鲸英助教）
+- [fancy](https://github.com/fancyboi999)（内容创作者-鲸英助教）
 
 > 注：排名根据贡献程度排序
 
