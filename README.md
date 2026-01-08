@@ -167,6 +167,29 @@
   </tr>
 </table>
 
+### 昇腾Ascend NPU 专区
+
+<p align="center">
+  <strong>🚀 昇腾Ascend NPU 平台已支持模型</strong><br>
+  <em>每个模型都提供完整的昇腾Ascend NPU 环境配置和部署教程</em><br>
+  📖 <strong><a href="./support_model_Ascend.md">查看完整昇腾 NPU 平台模型列表和教程</a></strong><br>
+</p>
+
+<table align="center">
+  <tr>
+    <td valign="top" width="50%">
+      • <a href="./support_model_Ascend.md#qwen3">Qwen3</a><br>
+      • Ascend NPU 环境配置通用指南<br>
+      • Ascend NPU 大模型推理性能优化建议
+    </td>
+    <td valign="top" width="50%">
+      • <a href="./support_model_Ascend.md#大模型服务化性能和精度测试">大模型服务化性能和精度测试</a><br>
+      • AISBench 测试工具环境配置<br>
+      • 昇腾大模型服务化性能和精度测试
+    </td>
+  </tr>
+</table>
+
 ### 沐曦专区
 
 <p align="center">
@@ -185,6 +208,7 @@
 
 - [宋志学(不要葱姜蒜)-项目负责人](https://github.com/KMnO4-zx) （Datawhale成员）
 - [邹雨衡-项目负责人](https://github.com/logan-zou) （Datawhale成员-对外经济贸易大学）
+- [刘十一-Ascend专区负责人](https://github.com/Zhiwen-Liu)（Datawhale成员-鲸英助教）
 - [姜舒凡](https://github.com/Tsumugii24)（内容创作者-Datawhale成员）
 - [郭宣伯](https://github.com/Twosugar666)（内容创作者-北京航空航天大学）
 - [林泽毅](https://github.com/Zeyi-Lin)（内容创作者-SwanLab产品负责人）
