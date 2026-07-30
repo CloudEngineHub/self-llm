@@ -153,23 +153,30 @@
 ### AMD GPU Section
 
 <p align="center">
+  <img src="./images/rocm_logo.png" height="56" alt="ROCm"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="./images/aup_logo.png" height="56" alt="AMD University Program"/>
+</p>
+
+<p align="center">
   <strong>🚀 AMD GPU Platform Supported Models</strong><br>
-  <em>Each model provides complete AMD environment configuration and deployment tutorials</em><br>
+  <em>Each model provides complete ROCm environment setup and deployment tutorials (LM Studio / vLLM / Ollama / llama.cpp)</em><br>
   <em>Thanks to AMD University Program for supporting this project</em><br>
   📖 <strong><a href="./support_model_amd.md">View complete AMD platform model list and tutorials</a></strong><br>
+  📘 <strong>Further learning:</strong> <a href="https://github.com/datawhalechina/hello-rocm">hello-rocm</a> (Datawhale ROCm deploy / fine-tune / infra tutorials)
 </p>
 
 <table align="center">
   <tr>
     <td valign="top" width="50%">
-      • <a href="./support_model_amd.md#谷歌-gemma3">Google Gemma3</a><br>
-      • AMD Environment Preparation and Configuration<br>
-      • NPU Inference Acceleration Support
+      • <a href="./support_model_amd.md#谷歌-gemma4">Google Gemma4</a><br>
+      • ROCm 7 Environment Preparation<br>
+      • LM Studio / vLLM / Ollama / llama.cpp
     </td>
     <td valign="top" width="50%">
-      • <a href="./support_model_amd.md#qwen3">Qwen3</a><br>
-      • lemonade-server SDK Deployment<br>
-      • Ryzen AI 300 Series Optimization
+      • <a href="./support_model_amd.md#qwen35">Qwen3.5</a><br>
+      • ROCm 7 Environment Preparation<br>
+      • LM Studio / vLLM / Ollama / llama.cpp
     </td>
   </tr>
 </table>
@@ -283,11 +290,16 @@
 ### Others
 
 - Special thanks to [@Sm1les](https://github.com/Sm1les) for their help and support for this project
-- Thanks to AMD University Program for supporting this project
 - Some lora code and explanations reference repository: https://github.com/zyds/transformers-code.git
 - If you have any ideas, you can contact DataWhale. We also welcome everyone to raise more issues
 - Special thanks to the following students who contributed to the tutorials!
 
+<p align="center">
+  <em>Thanks to AMD University Program for supporting this project</em><br>
+  <img src="./images/rocm_logo.png" height="48" alt="ROCm"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="./images/aup_logo.png" height="48" alt="AMD University Program"/>
+</p>
 
 <div align=center style="margin-top: 30px;">
   <a href="https://github.com/datawhalechina/self-llm/graphs/contributors">
