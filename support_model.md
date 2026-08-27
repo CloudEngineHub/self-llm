@@ -4,14 +4,17 @@
 
 ## 目录
 
+- [Hy3](#hy3)
 - [DeepSeek-V4-Flash](#deepseek-v4-flash)
 - [MiniCPM5](#minicpm5)
 - [Qwen3.5](#qwen35)
 - [Kimi-K2.5](#kimi-k25)
 - [Step-3.5-Flash](#step-35-flash)
 - [GLM-4.7-Flash](#glm-47-flash)
+- [GLM-5.2](#glm-52)
 - [谷歌-Gemma3](#谷歌-gemma3)
 - [MiniMax-M3](#minimax-m3)
+- [MiniMax-M2.7](#minimax-m27)
 - [MiniMax-M2.5](#minimax-m25)
 - [MiniMax-M2](#minimax-m2)
 - [Qwen3-VL-4B-Instruct](#qwen3-vl-4b-instruct)
@@ -65,6 +68,12 @@
 
 ## 已支持模型列表
 
+### Hy3
+
+[Hy3](https://huggingface.co/tencent/Hy3)
+  - [x] [Hy3 vLLM docker部署调用](./models/Hy3/01-Hy3-vLLM%20docker部署调用.md)
+
+
 ### DeepSeek-V4-Flash
 
 [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash)
@@ -107,6 +116,13 @@
 - [x] [GLM-4.7-Flash SGLang 部署调用及 Docker 镜像](./models/GLM-4.7-Flash/02-GLM-4.7-Flash%20SGLang%20部署调用.md) @三水
 - [x] [GLM-4.7-Flash Lora 微调及 Docker 镜像](./models/GLM-4.7-Flash/03-GLM-4.7-Flash-Lora微调及Docker镜像.md) @余洋
 
+### GLM-5.2
+
+[GLM-5.2](https://huggingface.co/zai-org/GLM-5.2)
+- [x] [GLM-5.2 技术报告解读](./models/GLM-5.2/1-GLM-5.2-技术报告解读.md)
+- [x] [GLM-5.2 vLLM 部署调用](./models/GLM-5.2/2-GLM-5.2-vLLM.md)
+- [x] [GLM-5.2 SGLang 部署调用](./models/GLM-5.2/3-GLM-5.2-SGLang.md)
+
 ### 谷歌-Gemma3
 
 [谷歌-Gemma3](https://huggingface.co/google/gemma-7b-it)
@@ -125,6 +141,16 @@
 - [x] [MiniMax-M3 vLLM 部署调用](./models/MiniMax-M3/1-MiniMax-M3-vLLM.md)
 - [x] [MiniMax-M3 SGLang 部署调用](./models/MiniMax-M3/2-MiniMax-M3-SGLang.md)
 - [x] [MiniMax-M3 Transformers 部署调用](./models/MiniMax-M3/3-MiniMax-M3-Transformers.md)
+
+### MiniMax-M2.7
+
+[MiniMax-M2.7](https://github.com/MiniMax-AI/MiniMax-M2.7)
+- [x] [MiniMax-M2.7 online experience](https://agent.minimax.io/)
+- [x] [MiniMax-M2.7 on Hugging Face](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)
+- [x] [MiniMax-M2.7 text generation guide](https://platform.minimax.io/docs/guides/text-generation)
+- [x] [MiniMax-M2.7 vLLM deployment](./models/MiniMax-M2.7/1-MiniMax-M2.7-vLLM.md)
+- [x] [MiniMax-M2.7 SGLang deployment](./models/MiniMax-M2.7/2-MiniMax-M2.7-SGLang.md)
+- [x] [MiniMax-M2.7 Transformers deployment](./models/MiniMax-M2.7/3-MiniMax-M2.7-Transformers.md)
 
 ### MiniMax-M2.5
 
